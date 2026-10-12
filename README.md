@@ -336,3 +336,11 @@ Compiled and maintained from upstream [InterviewReady/system-design-resources](h
 ---
 
 Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
+
+## Sources
+
+Compiled and maintained from upstream [InterviewReady/system-design-resources](https://github.com/InterviewReady/system-design-resources) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
