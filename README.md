@@ -1,338 +1,297 @@
-# System Design Resources
+# system-design-resources
+
+## What This Is
+
+Every project needs a shelf of ready answers. product and engineering is one of those shelves, and system-design-resources is the entry on it - the notes, patterns and fixes we reuse when this kind of work comes up.
 
 ## Images
 
-[![system-design-resources](https://opengraph.githubassets.com/1/InterviewReady/system-design-resources)](https://www.swifttechco.com)
+[![system-design-resources](images/preview.png)](https://github.com/Swift-Tech-Co)
 
-These are the best resources for System Design on the Internet.
-
-# Table of Contents
-
-- [Video Processing](#video-processing)
-- [Cluster and Workflow Management](#cluster-and-workflow-management)
-- [Intra-Service Messaging](#intra-service-messaging)
-- [Message Queue Antipattern](#message-queue-antipattern)
-- [Service Mesh](#service-mesh)
-- [Practical System Design](#practical-system-design)
-- [Distributed File System](#distributed-file-system)
-- [Time Series Databases](#time-series-databases)
-- [Rate Limiting](#rate-limiting)
-- [In Memory Database - Redis](#in-memory-database---redis)
-- [Network Protocols](#network-protocols)
-- [Chess Engine Design](#chess-engine-design)
-- [Subscription Management System](#subscription-management-system)
-- [Google Docs](#google-docs)
-- [API Design](#api-design)
-- [NoSQL Database Internals](#nosql-database-internals)
-- [NoSQL Database Algorithms](#nosql-database-algorithms)
-- [Database Replication](#database-replication)
-- [Containers and Docker](#containers-and-docker)
-- [Capacity Estimation](#capacity-estimation)
-- [Publisher Subscriber](#publisher-subscriber)
-- [Event Driven Architectures](#event-driven-architectures)
-- [Software Architectures](#software-architectures)
-- [Microservices](#microservices)
-- [Distributed Transactions consistency Patterns](#distributed-transactions-consistency-patterns)
-- [Load Balancing](#load-balancing)
-- [Alerts and Anomaly Detection](#alerts-and-anomaly-detection)
-- [Distributed Logging](#distributed-logging)
-- [Metrics and Text Search Engine](#metrics-and-text-search-engine)
-- [Single Point of Failure](#single-point-of-failure)
-- [Location Based Services](#location-based-services)
-- [Batch Processing](#batch-processing)
-- [Real Time Stream Processing](#real-time-stream-processing)
-- [Caching](#caching)
-- [Distributed Consensus](#distributed-consensus)
-- [Authorization](#authorization)
-- [Content Delivery Network](#content-delivery-network)
-- [Testing Distributed Systems](#testing-distributed-systems)
-- [System Design Resources](#system-design-resources)
-
-##
 ## Video Processing
-- [Transcoding Videos at Scale](https://www.swifttechco.com)
-- [Facebook Video Broadcasting](https://www.swifttechco.com)
-- [Netflix Video Encoding at Scale](https://www.swifttechco.com)
-- [Netflix Shot based encoding](https://www.swifttechco.com)
+- Transcoding Videos at Scale
+- Facebook Video Broadcasting
+- Netflix Video Encoding at Scale
+- Netflix Shot based encoding
 
 ##
 ## Cluster and Workflow Management
-- [Facebook Cluster Management](https://www.swifttechco.com)
-- [Google Autopilot - Autoscaling](https://www.swifttechco.com)
-- [Netflix Workflow Orchestration](https://www.swifttechco.com)
-- [Opensource Workflow Management](https://www.swifttechco.com)
-- [Meta Hardware Management](https://www.swifttechco.com)
-- [Meta Capacity Assignment](https://www.swifttechco.com)
-- [Amazon EC2](https://www.swifttechco.com)
+- Facebook Cluster Management
+- Google Autopilot - Autoscaling
+- Netflix Workflow Orchestration
+- Opensource Workflow Management
+- Meta Hardware Management
+- Meta Capacity Assignment
+- Amazon EC2
 
 ##
 ## Intra-Service Messaging
-- [What is a message queue](https://www.swifttechco.com)
-- [AirBnb Idempotency](https://www.swifttechco.com)
-- [Meta Async Task Computing](https://www.swifttechco.com)
+- What is a message queue
+- AirBnb Idempotency
+- Meta Async Task Computing
 
 ## Message Queue Antipattern
-- [DB as queue Antipattern](https://www.swifttechco.com)
-- [Using a database as a message queue](https://www.swifttechco.com)
-- [Anti-pattern of DB as a queue](https://www.swifttechco.com)
-- [Drawbacks of DB as a queue](https://www.swifttechco.com)
+- DB as queue Antipattern
+- Using a database as a message queue
+- Anti-pattern of DB as a queue
+- Drawbacks of DB as a queue
 
 ##
 ## Service Mesh
-- [Kubernetes Service Mesh](https://www.swifttechco.com)
-- [Kubernetes Sidecar](https://www.swifttechco.com)
-- [Service Mesh](https://www.swifttechco.com)
-- [NginX Service Mesh](https://www.swifttechco.com)
-- [Data Plane and Control Plane](https://www.swifttechco.com)
+- Kubernetes Service Mesh
+- Kubernetes Sidecar
+- Service Mesh
+- NginX Service Mesh
+- Data Plane and Control Plane
 
 ##
 ## Practical System Design
-- [Facebook Messenger Optimisations](https://www.swifttechco.com)
-- [YouTube Architecture](https://www.swifttechco.com)
-- [YouTube scalability 2012](https://www.swifttechco.com)
-- [Distributed Design Patterns](https://www.swifttechco.com)
-- [Monolith to Microservice](https://www.swifttechco.com)
-- [Zerodha Tech Stack](https://www.swifttechco.com)
+- Facebook Messenger Optimisations
+- YouTube Architecture
+- YouTube scalability 2012
+- Distributed Design Patterns
+- Monolith to Microservice
+- Zerodha Tech Stack
 
 ##
 ## Distributed File System
-- [Open Source Distributed File System](https://www.swifttechco.com)
-- [Amazon S3 Performance hacks](https://www.swifttechco.com)
-- [Amazon S3 object expiration](https://www.swifttechco.com)
+- Open Source Distributed File System
+- Amazon S3 Performance hacks
+- Amazon S3 object expiration
 
 ##
 ## Time Series Databases
-- [Pinterest Time Series Database](https://www.swifttechco.com)
-- [Uber Time Series DB](https://www.swifttechco.com)
-- [TimeSeries Relational DB](https://www.swifttechco.com)
-- [Facebook Gorilla Time Series DB](https://www.swifttechco.com)
+- Pinterest Time Series Database
+- Uber Time Series DB
+- TimeSeries Relational DB
+- Facebook Gorilla Time Series DB
 
 ##
 ## Rate Limiting
-- [Circuit Breaker Algorithm](https://www.swifttechco.com)
-- [Uber Rate Limiter](https://www.swifttechco.com)
+- Circuit Breaker Algorithm
+- Uber Rate Limiter
 
 ##
 ## In Memory Database - Redis
-- [Redis Official Documentation](https://www.swifttechco.com)
-- [Learn Redis through Redis University](https://www.swifttechco.com)
-- [Redis Open Source Repo](https://www.swifttechco.com)
-- [Redis Architecture](https://www.swifttechco.com)
+- Redis Official Documentation
+- Learn Redis through Redis University
+- Redis Open Source Repo
+- Redis Architecture
 
 ##
 ## Network Protocols
-- [What is HTTP](https://www.swifttechco.com)
-- [QUIC Protocol](https://www.swifttechco.com)
-- [TCP Protocol algorithms](https://www.swifttechco.com) (First 10 pages are important)
-- [WebRTC](https://www.swifttechco.com)
-- [WebSockets](https://www.swifttechco.com)
-- [Dynamic Source Routing using QUIC](https://www.swifttechco.com)
+- What is HTTP
+- QUIC Protocol
+- TCP Protocol algorithms (First 10 pages are important)
+- WebRTC
+- WebSockets
+- Dynamic Source Routing using QUIC
 
 ##
 ## Chess Engine Design
-- [Chess Engine Building](https://www.swifttechco.com)
+- Chess Engine Building
 
 ##
 ## Subscription Management System
-- [Subscription Manager](https://www.swifttechco.com)
+- Subscription Manager
 
 ##
 ## Google Docs
-- [Operational Transform](https://www.swifttechco.com)
-- [Google Docs](https://www.swifttechco.com)
-- [Lumiere](https://www.swifttechco.com)
+- Operational Transform
+- Google Docs
+- Lumiere
 
 
 ## 
 ## API Design
 
-- [API Design at Airbnb](https://www.swifttechco.com)
-- [Swagger APIs](https://www.swifttechco.com)
+- API Design at Airbnb
+- Swagger APIs
 
 ##
 ## NoSQL Database Internals
 
-- [Cassandra Architecture](https://www.swifttechco.com)
-- [Google BigTable Architecture](https://www.swifttechco.com)
-- [Amazon Dynamo DB Internals](https://www.swifttechco.com)
-- [Design Patterns in Amazon Dynamo DB](https://www.swifttechco.com)
-- [Internals of Amazon Dynamo DB](https://www.swifttechco.com)
+- Cassandra Architecture
+- Google BigTable Architecture
+- Amazon Dynamo DB Internals
+- Design Patterns in Amazon Dynamo DB
+- Internals of Amazon Dynamo DB
 
 ##
 ## NoSQL Database Algorithms
 
-- [Hyperloglog Algorithm](https://www.swifttechco.com)
-- [Log Structured Merge Tree](https://www.swifttechco.com)
-- [Sorted String Tables and Compaction Strategies](https://www.swifttechco.com)
-- [Leveled Compaction Cassandra](https://www.swifttechco.com)
-- [Scylla DB Compaction](https://www.swifttechco.com)
-- [Indexing in Cassandra](https://www.swifttechco.com)
+- Hyperloglog Algorithm
+- Log Structured Merge Tree
+- Sorted String Tables and Compaction Strategies
+- Leveled Compaction Cassandra
+- Scylla DB Compaction
+- Indexing in Cassandra
 
 ##
 ## Database Replication
 
-- [Database replication](https://www.swifttechco.com)
-- [Netflix Data replication - Change Data Capture](https://www.swifttechco.com)
-- [LinkedIn Logging Usecases](https://www.swifttechco.com)
-- [Uber Trillions of indexes in LedgerStore](https://www.swifttechco.com)
+- Database replication
+- Netflix Data replication - Change Data Capture
+- LinkedIn Logging Usecases
+- Uber Trillions of indexes in LedgerStore
 
 ##
 ## Containers and Docker
 
-- [Facebook Twine Containerization](https://www.swifttechco.com)
-- [CloudFlare Containerization](https://www.swifttechco.com)
-- [Docker Architecture](https://www.swifttechco.com)
+- Facebook Twine Containerization
+- CloudFlare Containerization
+- Docker Architecture
 
 ##
 ## Capacity Estimation
 
-- [Google Capacity Estimation](https://www.swifttechco.com)
-- [Scalability at YouTube 2012](https://www.swifttechco.com)
-- [Back of envelope Calculations at AWS](https://www.swifttechco.com)
-- [Capacity Estimation](https://www.swifttechco.com)
+- Google Capacity Estimation
+- Scalability at YouTube 2012
+- Back of envelope Calculations at AWS
+- Capacity Estimation
 
 ##
 ## Publisher Subscriber
 
-- [Oracle Publisher Subscriber](https://www.swifttechco.com)
-- [Amazon Pub Sub Messaging](https://www.swifttechco.com)
-- [Asynchronous processing](https://www.swifttechco.com)
-- [Async Request Response](https://www.swifttechco.com)
+- Oracle Publisher Subscriber
+- Amazon Pub Sub Messaging
+- Asynchronous processing
+- Async Request Response
 
 ##
 ## Event Driven Architectures
 
-- [Martin Fowler- Event Driven Architecture](https://www.swifttechco.com)
-- [Event Driven Architecture](https://www.swifttechco.com)
+- Martin Fowler- Event Driven Architecture
+- Event Driven Architecture
 
 ##
 ## Software Architectures
 
-- [Hexagonal Architecture](https://www.swifttechco.com)
-- [Hexagonal architecture (Alistair Cockburn)](https://www.swifttechco.com)
-- [The Clean Code by Robert C. Martin (Uncle Bob)](https://www.swifttechco.com)
-- [CQRS](https://www.swifttechco.com)
-- [DomainDrivenDesign](https://www.swifttechco.com)
+- Hexagonal Architecture
+- Hexagonal architecture (Alistair Cockburn)
+- The Clean Code by Robert C. Martin (Uncle Bob)
+- CQRS
+- DomainDrivenDesign
 
 ##
 ## Microservices
 
-- [Monolith Architecture](https://www.swifttechco.com)
-- [Monoliths vs Microservices](https://www.swifttechco.com)
-- [Microservices](https://www.swifttechco.com)
-- [Uber Nanoservices antipattern](https://www.swifttechco.com)
-- [Uber Domain oriented microservice](https://www.swifttechco.com)
+- Monolith Architecture
+- Monoliths vs Microservices
+- Microservices
+- Uber Nanoservices antipattern
+- Uber Domain oriented microservice
 
 ##
 ## Distributed Transactions consistency Patterns
 
-- [Transactional outbox](https://www.swifttechco.com)
-- [SAGAS Long lived transactions (LLTs)](https://www.swifttechco.com)
+- Transactional outbox
+- SAGAS Long lived transactions (LLTs)
 
 ##
 ## Load Balancing
 
-- [Load Balancer with Sticky Sessions](https://www.swifttechco.com)
-- [NetScaler what is load balancing](https://www.swifttechco.com)
-- [Nginx Load Balancing](https://www.swifttechco.com)
-- [Consistent hashing](https://www.swifttechco.com)
-- [Minimizing connection churn](https://www.swifttechco.com)
-- [Google Subsetting Algorithm](https://www.swifttechco.com)
+- Load Balancer with Sticky Sessions
+- NetScaler what is load balancing
+- Nginx Load Balancing
+- Consistent hashing
+- Minimizing connection churn
+- Google Subsetting Algorithm
 
 ##
 ## Alerts and Anomaly Detection
 
-- [Outlier Detection](https://www.swifttechco.com)
-- [Anomaly Detection](https://www.swifttechco.com)
-- [Uber Real Time Monitoring and Root Cause Analysis Argos](https://www.swifttechco.com)
-- [Microsoft Anomaly Detection](https://www.swifttechco.com)
-- [Facebook Data Engineering](https://www.swifttechco.com)
-- [LinkedIn Real Time Alerting](https://www.swifttechco.com)
-- [LinkedIn Isolation Forests](https://www.swifttechco.com)
+- Outlier Detection
+- Anomaly Detection
+- Uber Real Time Monitoring and Root Cause Analysis Argos
+- Microsoft Anomaly Detection
+- Facebook Data Engineering
+- LinkedIn Real Time Alerting
+- LinkedIn Isolation Forests
 
 ##
 ## Distributed Logging
 
-- [Uber Distributed Request Tracing](https://www.swifttechco.com)
-- [Pintrest Logging](https://www.swifttechco.com)
-- [Google Monitoring Infrastructure](https://www.swifttechco.com)
+- Uber Distributed Request Tracing
+- Pintrest Logging
+- Google Monitoring Infrastructure
 
 ##
 ## Metrics and Text Search Engine
 
-- [Facebook real-time text search engine](https://www.swifttechco.com)
-- [Elastic Search Time Based Querying](https://www.swifttechco.com)
-- [Elastic Search Aggregation](https://www.swifttechco.com)
+- Facebook real-time text search engine
+- Elastic Search Time Based Querying
+- Elastic Search Aggregation
 
 ##
 ## Single Point of Failure
 
-- [Avoiding Single Points of Failure](https://www.swifttechco.com)
-- [Netflix Multi-Region Availability](https://www.swifttechco.com)
-- [Oracle Single Points of failure](https://www.swifttechco.com)
-- [DNS single point of failure 2004](https://www.swifttechco.com)
-- [DNS traffic management by Shopify](https://www.swifttechco.com)
-- [Sharding](https://www.swifttechco.com)
+- Avoiding Single Points of Failure
+- Netflix Multi-Region Availability
+- Oracle Single Points of failure
+- DNS single point of failure 2004
+- DNS traffic management by Shopify
+- Sharding
 
 ##
 ## Location Based Services
 
-- [Google S2 library](https://www.swifttechco.com)
+- Google S2 library
 
 ##
 ## Batch Processing
 
-- [Map Reduce Architecture](https://www.swifttechco.com)
+- Map Reduce Architecture
 
 ##
 ## Real Time Stream Processing
 
-- [LinkedIn Brooklin- Real-time data streaming](https://www.swifttechco.com)
-- [Netflix Real Time Stream Processing](https://www.swifttechco.com)
-- [KSQLDB for Kafka](https://www.swifttechco.com)
-- [Netflix Psyberg](https://www.swifttechco.com)
+- LinkedIn Brooklin- Real-time data streaming
+- Netflix Real Time Stream Processing
+- KSQLDB for Kafka
+- Netflix Psyberg
 
 ##
 ## Caching
 
-- [Google Guava Cache](https://www.swifttechco.com)
-- [Caching (See the README)](https://www.swifttechco.com)
-- [Caching](https://www.swifttechco.com)
-- [Microsoft Caching Guide](https://www.swifttechco.com))
-- [Caching patterns](https://www.swifttechco.com)
-- [Uber's Integrated Cache for 40M RPS](https://www.swifttechco.com)
+- Google Guava Cache
+- Caching (See the README)
+- Caching
+- Microsoft Caching Guide)
+- Caching patterns
+- Uber's Integrated Cache for 40M RPS
 
 ##
 ## Distributed consensus
 
-- [Paxos](https://www.swifttechco.com)
-- [Raft](https://www.swifttechco.com)
+- Paxos
+- Raft
 
 ##
 ## Authorization
 
-- [Designing an Authorization Model for an Enterprise](https://www.swifttechco.com)
-- [The Architectural Patterns of Cloud-native Authorization Systems](https://www.swifttechco.com)
+- Designing an Authorization Model for an Enterprise
+- The Architectural Patterns of Cloud-native Authorization Systems
 
 ##
 ## Content Delivery Network
 
-- [AWS CloudFront CDN with S3](https://www.swifttechco.com)
+- AWS CloudFront CDN with S3
 
 ##
 ## Testing Distributed Systems
 
-- [Deterministic Testing](https://www.swifttechco.com)
-- [TLA+ by Leslie Lamport](https://www.swifttechco.com)
-- [Jepsen](https://www.swifttechco.com)
+- Deterministic Testing
+- TLA+ by Leslie Lamport
+- Jepsen
 
 ##
 ## System Design Resources
 
-- [Designing Data-Intensive Applications Book](https://www.swifttechco.com)
-- [WhitePapers](https://www.swifttechco.com)
-- [InterviewReady Videos](https://www.swifttechco.com)
-- [System Design Online Judge](https://www.swifttechco.com)
+- Designing Data-Intensive Applications Book
+- WhitePapers
+- InterviewReady Videos
+- System Design Online Judge
 
 ---
 
@@ -344,14 +303,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [InterviewReady/system-design-resources](https://github.com/InterviewReady/system-design-resources) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
