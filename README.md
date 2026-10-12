@@ -6,7 +6,7 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 ## Images
 
-[![system-design-resources](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![system-design-resources](images/preview.png)](https://github.com/Swift-Tech-Co/system-design-resources)
 
 ## Video Processing
 - Transcoding Videos at Scale
@@ -100,7 +100,6 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 - Operational Transform
 - Google Docs
 - Lumiere
-
 
 ## 
 ## API Design
@@ -307,13 +306,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/system-design-resources
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [InterviewReady/system-design-resources](https://github.com/InterviewReady/system-design-resources) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
